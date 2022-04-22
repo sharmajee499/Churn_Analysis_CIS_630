@@ -5,9 +5,7 @@ import numpy as np
 import pickle
 from lime import lime_tabular
 import matplotlib.pyplot as plt
-from sklearn.model_selection import RandomizedSearchCV
-from sklearn.ensemble import RandomForestClassifier
-import session_info
+
 
 st.title("Customer Churn Prediction")
 
