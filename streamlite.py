@@ -276,7 +276,7 @@ df = pd.DataFrame([input_column_name, input_data_series])
 #UN-PICKLING THE MODEL
 #******************************************************************************
 
-pickle_in = open("C:/Users/Sande/OneDrive/Desktop/Churn_Analysis/Churn_Analysis_CIS_630/rf.pkl", "rb")
+pickle_in = open("rf.pkl", "rb")
 classifier = pickle.load(pickle_in) 
 
 
@@ -288,7 +288,7 @@ classifier = pickle.load(pickle_in)
 #LIME Explainer
 #******************************************************************************
 #Reading the dataset for LIME
-X_train_sm = pd.read_csv("C:/Users/Sande/OneDrive/Desktop/Churn_Analysis/Churn_Analysis_CIS_630/train_data.csv")
+X_train_sm = pd.read_csv("train_data.csv")
 
 
 #initiating the explainer instance
@@ -363,7 +363,7 @@ if prediction:
         
 
 from PIL import Image
-lime_exp = Image.open('C:/Users/Sande/OneDrive/Desktop/Churn_Analysis/Churn_Analysis_CIS_630/lime_exp_info.png')
+lime_exp = Image.open('lime_exp_info.png')
     
 
 with st.expander("How to Read the Chart to understand the outputs?"):
