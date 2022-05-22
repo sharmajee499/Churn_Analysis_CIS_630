@@ -8,7 +8,7 @@ Artificial Intelligence (AI) automation increases efficiency and garners a quick
 ### Dataset
 The dataset was extracted from the open-source dataset from a hypothetical telecommunication industry published by IBM that can be found via this [link](https://github.com/IBM/telco-customer-churn-on-icp4d/blob/master/data/Telco-Customer-Churn.csv)
 The datset consist of 7045 instances with 20 features. The target variable was 'Churn' which is binary consisting of 'Yes' if the customer churned/left or 'No' if the customer stayed. 
-The dataset was also imbalanced consisting of 73.463 %  of 'No' and 26.537 % of 'Yes' values. SMOTE was used to oversample the minority class which resulted the final dataset 
+The dataset was also imbalanced consisting of 73.463 %  of 'No' and 26.537 % of 'Yes' values. SMOTE was used to oversample the minority class.
 
 ### Modeling & Result
 Open Source Auto-ML- [PyCaret](https://pycaret.org/), was utilized to model. From the analysis, we found that the Random Forest outperformed any other model. Moreover, 
