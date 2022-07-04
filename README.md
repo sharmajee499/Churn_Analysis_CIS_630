@@ -25,3 +25,7 @@ The developed model and interpretability of the model is deployed as a web app t
 probability of the customer churn along side the LIME explainer showing the featurea supporting as well as contradicting the model result. The app can be accessed through this [link](https://share.streamlit.io/sharmajee499/churn_analysis_cis_630/main/streamlite.py)
 
 Libraries Used: Numpy, Pandas, Scikit-Learn, PyCaret, LIME, Streamlit
+
+### Libraries Installation
+Install the required libraries by `pip install -r requirements.txt` in your anaconda console.
+Make sure you have a different enviroment in conda for this project. 
